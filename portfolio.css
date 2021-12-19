@@ -10,7 +10,7 @@ img {
 .pag1 {
     display: flex;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    justify-content: space-between;
+    justify-content: flex-start;
     text-align: center;
 }
 .titulo {
