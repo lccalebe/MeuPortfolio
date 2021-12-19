@@ -1,0 +1,53 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+img {
+    border-radius: 100%;
+    height: 550px;
+    width: 550px;
+}
+.pag1 {
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-between;
+    text-align: center;
+}
+.titulo {
+    padding: 100px 10px 25px 10px;
+    min-width: 50%;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    font-size: 250%;
+}
+.redes-socias {
+    display: flex;
+}
+a {
+    color: black;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: darkblue;
+}
+p {
+    width: 100%;
+    margin: 10px 1px 1px 1px;
+    font-weight: bold;
+    padding: 1px;
+}
+.img-perfil {
+    justify-self: center;
+    align-self: center;
+    padding: 5px;
+}
+.pag2 {
+    background-color: black;
+    border: solid;
+}
