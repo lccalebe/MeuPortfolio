@@ -1,6 +1,6 @@
 
-body {
-    border: solid 10px;
+.corpo {
+    border: solid 10px rgba(0, 0, 0, 0.95);
     min-width: 1150px;
     min-height: 720px;
     display: flex;
@@ -15,9 +15,28 @@ body {
     padding: 5px 5px;
 }
 
+.btn, .btn2 {
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.95);
+    color: white;
+}
+
 .logoIdioma {
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
+    padding: 0 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+.logoIdioma:hover {
+    transform: scale(1.2);
 }
 
 .containerPerfil {
@@ -46,8 +65,9 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.ponto {
+.ponto, .ponto2 {
     font-size: 60px;
+    color: rgba(0, 0, 0, 0.95);
 }
 
 .hiTexto {
@@ -65,14 +85,13 @@ body {
 .logoRedeSocial {
     height: 50px;
     width: 50px;
-    transition: 0.3s;
+    transition: .3s;
 }
 .logoRedeSocial:hover {
     transform: scale(1.2);
 }
 
 .containerSobre {
-    border: solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -82,10 +101,19 @@ body {
 .title {
     font-size: 28px;
     font-weight: bold;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.95);
     color: white;
     text-align: center;
     padding: 5px 0;
+}
+.sobreDescricao {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 24px;
+    border: solid;
+    width: 50%;
+    margin: 100px auto;
+    padding: 50px 50px;
 }
 
 .rodape {
@@ -94,7 +122,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 12px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.95);
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }

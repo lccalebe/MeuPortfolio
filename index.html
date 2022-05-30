@@ -6,15 +6,19 @@
         <title>Portfolio Lucas Calebe</title>
         <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
     </head>
-    <body>
-        <!--<header class="menuCabecalho">
-            <button class="darkMode">DarkMode</button>
+    <body class="corpo">
+        <header class="menuCabecalho">
             <div>
-                <button><img class="logoIdioma" src="./img/brasil.png"/></button>
-                <button><img class="logoIdioma" src="./img/usa.png"/></button>
+                <button onclick="darkMode()" class="btn darkMode">DarkMode</button>
+                <button onclick="whiteMode()" class="btn2 darkMode">WhiteMode</button>
             </div>
 
-        </header>-->
+            <div>
+                <span onclick="pt()"><img class="logoIdioma" src="./img/brasil.png"/></span>
+                <span onclick="ingles()"><img class="logoIdioma" src="./img/usa.png"/></span>
+            </div>
+
+        </header>
 
         <div class="containerPerfil">
             <div class="img-perfil">
@@ -26,9 +30,9 @@
                     -
                 </span>
                 <span class="hiTexto">
-                    Oi sou o Lucas, Web Dev Fullstack.
+                    Oi, sou o Lucas, Web Dev Fullstack.
                 </span>
-                <span class="ponto">
+                <span class="ponto2">
                     -
                 </span>            
             
@@ -41,16 +45,21 @@
             </div>
         </div>
 
-        <!--<div class="containerSobre">
+        <div class="containerSobre">
             <span class="title">
                 Sobre
             </span>
             <span class="sobreDescricao">
-                ijdsiadjiasjdiajdaijdiasjdoljasldjaldijla iadjldj adiljaslidajils
+                Lucas acabou encontrando uma paixão por tecnologia tão forte quanto por esportes.
+                Formado em Educação física hoje cursa Ciências da Computação e busca entrar no mercado de trabalho como desenvolvedor para continuar sua carreira na área de tecnologia.
+                <br>
+                Já construiu sites com HTML, CSS e JavaScript, usou Node.js e Express para construir API's e fez consultas a bancos de dados usando mySQL.
+                Atualmente está se aprofundando ainda mais na área de Front-end.
+                
             </span>
         </div>
 
-        <div class="containerProjetos">
+        <!--<div class="containerProjetos">
             <span class="title">
                 Projetos
             </span>
@@ -63,5 +72,7 @@
             <span class="rodape">Feito por Lucas Calebe</span>
         </footer>
 
+        
+        <script src="./js/index.js"></script>
     </body>
 </html>
