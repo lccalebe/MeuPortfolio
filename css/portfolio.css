@@ -1,8 +1,7 @@
 
 .corpo {
     border: solid 10px rgba(0, 0, 0, 0.95);
-    min-width: 1150px;
-    min-height: 720px;
+    min-width: 1200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
