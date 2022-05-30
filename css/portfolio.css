@@ -25,6 +25,10 @@
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0.95);
     color: white;
+    transition: .2s;
+}
+.btn:hover, .btn2:hover {
+    transform: scale(1.08);
 }
 
 .logoIdioma {
